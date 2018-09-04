@@ -1,0 +1,36 @@
+.flex-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+.item1{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+}
+.item2{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:black;
+    position: absolute;
+}
+.item3{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color:green;
+    position: absolute;
+}
+.item4{
+    width:160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color:yellow;
+    position: absolute;
+}

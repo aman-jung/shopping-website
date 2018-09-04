@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/checkout.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="heading margin-top">
+        <div class="heading1"><i class="fa fa-bars"></i></div>
+        <div class="heading2 size">Shop</div>
+        <div class="heading3"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>               
+    </div>
+    <div class="center">
+         <div class="title">checkout</div>
+        <div>Shop is a demo app-form data will not be sent</div>
+    </div>
+    <div class="flex-container">
+        <div class="flex1">
+            <h4>Account Information</h4>
+            <form>
+                <input type="email" placeholder="Email" class="form"/>
+                <input type="number" placeholder="Phone Number" class="form"/>
+            </form>
+            <h4>Shipping Address</h4>
+            <form>
+                <input type="text" placeholder="Address" class="form"/>
+                <input type="text" placeholder="City" class="form"/>
+            </form>
+            <div class="flex-container1">
+                <div class="left">
+                    <input type="text" placeholder="state/Province" class="form"/>
+                </div>
+                <div class="right">
+                    <input type="text" placeholder="Zip/Postal Code" class="form"/>
+                </div>
+            </div>
+            <h3>Country</h3>
+            <select class="selectId">
+                <option selected>United States</option>
+                <option>Canada</option>
+            </select>
+            <h4>Billing Address</h4>
+            <form>
+                <label>
+               <input type="checkbox"/>
+               Use different billing address
+               </label>
+            </form>
+        </div>
+        <div class="flex2">
+            <h3>Payment Method</h3>
+            <form>
+                <input type="text" placeholder="Cardholder Name" class="form"/>
+                <input type="text" placeholder="Card Number" class="form"/>
+            </form>
+            <h4>Expiry</h4>
+            <div class="flex-container1">
+                <div class="month">
+                    <select class="selectOpt">
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>Mar</option>
+                        <option>Apr</option>
+                        <option>May</option>
+                        <option>Jun</option>
+                        <option>July</option>
+                        <option>Aug</option>
+                        <option>Sep</option>
+                        <option>Oct</option>
+                        <option>Nov</option>
+                        <option>Dec</option>
+                    </select>
+                </div>
+                <div class="date">
+                    <select class="selectOpt">
+                            <option>2016</option>
+                            <option>2017</option>
+                            <option>2018</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+                    </select>
+                </div>
+              <input type="number" placeholder="CVV" class="form1"/>
+            </div>
+            <h3>Order Summary</h3>
+            <div class="flex-container1">
+                <div class="total">Men's Tech Shell Full-Zip</div>
+                <div class="price">$50.20</div>
+            </div>
+            <div class="flex-container1 margin">
+                    <div class="total">Total</div>
+                    <div class="price">$50.20</div>
+                </div>
+                <div class="margin">
+                    <button class="btn">PLACE ORDER</button></div>
+        </div>
+    </div>
+    <footer>
+        <div class="flex-footer">PLACE ORDER</div>
+    </footer> 
+</body>
+</html>
